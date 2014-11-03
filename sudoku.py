@@ -46,7 +46,7 @@ def sudoku_solve(sudoku, i, j):
            sudoku[i][j] = candidate
            if sudoku_solve(sudoku, i, j):
                return True
-    sudoku[i][j] = 0
+           sudoku[i][j] = 0
 
     return False
 
